@@ -50,3 +50,17 @@
 .lightText {
   color: #666;
 }
+
+.button {
+  background-color: #0070f3; /* Butonun arka plan rengi */
+  color: white; /* Metin rengi */
+  padding: 10px 20px; /* İçerik boşluğu */
+  border: none; /* Kenarlık yok */
+  border-radius: 5px; /* Köşe yuvarlama */
+  cursor: pointer; /* İmleç işareti */
+  font-size: 16px; /* Yazı boyutu */
+}
+
+.button:hover {
+  background-color: #005bb5; /* Hover durumundaki arka plan rengi */
+}
